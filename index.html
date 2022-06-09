@@ -96,9 +96,14 @@
 
   </style>
   <style type="text/css">
-    @media (max-width: 600px) {
+    @media screen and (max-width: 600px) {
       .mobile {
         font-size: 10px !important;
+      }
+
+      .responsive {
+        width: 100% !important;
+        display: block;
       }
 
       .responsive-img {
@@ -112,8 +117,8 @@
 
 <body style="word-spacing:normal;background-color:#f8f8f8;">
   <div style="background-color:#f8f8f8;">
-    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    <div style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
+    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="responsive-outlook" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div class="responsive" style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;">
         <tbody>
           <tr>
@@ -132,7 +137,7 @@
                                 <td style="vertical-align:top;padding:0;">
                                   <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                                     <tbody>
-                                      <img class="responsive-img" src="https://i.ibb.co/BjsnrF4/header-pressed.png" alt="" width="px" style="padding:" />
+                                      <img class="responsive-img" src="https://i.ibb.co/BjsnrF4/header-pressed.png" alt="" width="600px" style="padding:" />
                                     </tbody>
                                   </table>
                                 </td>
@@ -416,3 +421,4 @@
 </body>
 
 </html>
+
